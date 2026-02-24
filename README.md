@@ -2,7 +2,7 @@
 
 ### Overview
 
-This project demonstrates a classical image processing pipeline for extracting meaningful visual features from images. The focus is on understanding how raw image data can be transformed through preprocessing, filtering, segmentation, and feature extraction to support downstream analysis tasks.
+This project demonstrates a image processing pipeline. The focus is on understanding how raw image data can be transformed through processing techniques such as filtering, denoising and histogram equalization. 
 
 
 ### Techniques Covered
@@ -19,7 +19,7 @@ These techniques form the foundation of many applications in computer vision, in
 
 ### Project Structure
 
-* **`main_pipeline.ipynb`** – Primary notebook containing the complete image processing workflow
+* **`main_pipeline.ipynb`** – Primary notebook containing the image processing workflow
 * **`experiments_and_notes.ipynb`** – Exploratory experiments and additional trials
 * **`README.md`** – Project overview and usage instructions
 
@@ -35,12 +35,12 @@ All results and visual outputs are generated within the notebook.
 
 ### Results
 
-The notebook produces visual comparisons between original and processed images, illustrating the effects of filtering, edge detection, and segmentation at each stage of the pipeline.
+The notebook produces visual comparisons between original and processed images at each stage of the pipeline.
 
 
 ### Key Takeaways
 
-This project highlights the trade-offs involved in classical image processing, such as noise reduction versus detail preservation and the sensitivity of results to parameter choices. It emphasizes understanding why specific transformations are applied, not just how to apply them.
+This project highlights the trade-offs involved in general image processing, such as noise reduction versus detail preservation and the sensitivity of results to parameter choices. It emphasizes understanding why specific transformations are applied, not just how to apply them.
 
 
 ### Tools Used
